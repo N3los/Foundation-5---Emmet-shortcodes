@@ -30,7 +30,7 @@ LoremPixel categories: abstract / animals / business / cats / city / food / nigh
 
 ## Accordion
 
-ul.accordion[data-accordion]>li.accordion-navigation*5>a[href="#panel$a"]{Accordion $}+#panel$a.content>lorem20
+`ul.accordion[data-accordion]>li.accordion-navigation*5>a[href="#panel$a"]{Accordion $}+#panel$a.content>lorem20`
 
 ## Tabs
 
