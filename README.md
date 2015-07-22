@@ -10,18 +10,18 @@ Codes are mostly taken from F5 docs page and just "translated" to Emmet. With th
 
 ## Orbit slider
 
-ul.example-orbit[data-orbit]>li*3>img[src=http://lorempixel.com/1000/300/ alt=slider image $]+.orbit-caption{Slider caption $}
+`ul.example-orbit[data-orbit]>li*3>img[src=http://lorempixel.com/1000/300/ alt=slider image $]+.orbit-caption{Slider caption $}`
 
 ## Images
 
 LoremPixel categories: abstract / animals / business / cats / city / food / nightlife / fashion / people / nature / sports / technics / transport
 
-img[src=http://lorempixel.com/300/300/nature/$ alt=Image]*10
+`img[src=http://lorempixel.com/300/300/nature/$ alt=Image]*10`
 
 ## F5 Gallery
 
-ul.clearing-thumbs.small-block-grid-4img[data-clearing]>li*10>a.th[href="http://lorempixel.com/800/300/nature/"]>img[src="http://lorempixel.com/100/100/nature/" alt="Image"]
+`ul.clearing-thumbs.small-block-grid-4img[data-clearing]>li*10>a.th[href="http://lorempixel.com/800/300/nature/"]>img[src="http://lorempixel.com/100/100/nature/" alt="Image"]`
 
 ## Form
 
-form>.row>.large-12.columns>label{Label:}>input:text^^^+.row>.large-4.columns*3>label{Label:}>input:text^^^.row>.large-12.columns>label{Label:}>select>option[value="$"]*5>{value $}^^^^^.row>(.large-6.columns>(label[for="radio$"]{Radio label $}+input:radio#radio$)*4)+(.large-6.columns>(label[for="check$"]{Checkbox label $}+input:checkbox#check$)*4)^.row>.large-12.columns>label{Textarea}>textarea
+`form>.row>.large-12.columns>label{Label:}>input:text^^^+.row>.large-4.columns*3>label{Label:}>input:text^^^.row>.large-12.columns>label{Label:}>select>option[value="$"]*5>{value $}^^^^^.row>(.large-6.columns>(label[for="radio$"]{Radio label $}+input:radio#radio$)*4)+(.large-6.columns>(label[for="check$"]{Checkbox label $}+input:checkbox#check$)*4)^.row>.large-12.columns>label{Textarea}>textarea`
