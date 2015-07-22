@@ -35,3 +35,5 @@ ul.accordion[data-accordion]>li.accordion-navigation*5>a[href="#panel$a"]{Accord
 ## Tabs
 
 `(ul.tabs[data-tab]>li.tab-title.active>a[href="#panel$"]{Tab $}^li.tab-title*4>a[href="#panel$"]{Tab $})+(.tabs-content>.content.active#panel$>p>lorem15^^.content#panel$*4>p>lorem15)`
+
+If u want vertical tabs, just all "vertical" to first ul.tabs like this:  "ul.tabs.vertical"
