@@ -59,6 +59,24 @@ img tag will generate src="" which u don't need so u can remove it
 ## Icon bar
 
 Icons are "Font Awesome" (http://fortawesome.github.io/Font-Awesome/) so the <i> class names are not from Foundation
+Just change "home" part with something else (ex. envelope, phone, trash, close... check FontAwesome cheatsheet)
 
 .icon-bar.five-up>a[href="#"].item*4>i.fa.fa-home+label>{Label txt $}
 
+
+## Magellan
+
+The multiply number (*4 in this case) must be the same in both parts of the code
+
+(div[data-magellan-expedition="fixed"]>dl.sub-nav>dd[data-magellan-arrival="section-$"]*4>a[href="section-$"]>{Section $})+(.magellan-destinations>(h3[data-magellan-destination="section-$"]+a[name="section-$"])*4)
+
+
+## Breadcrumbs
+
+ul.breadcrumbs>li>a[href="#"]>{Home}^^+li.current>a[href="#"]>{Current}
+
+
+## Reveal Modal
+http://foundation.zurb.com/docs/components/reveal.html
+
+(a[href="#" data-reveal-id="myModal"]>{Click Me For A Modal})+(#myModal.reveal-modal[data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"]>(h2.modal-title>{Awesome modal})+(p.lead>{Some text})+(a.close-reveal-modal[aria-label="Close"]>{&#215;}))
