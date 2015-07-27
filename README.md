@@ -72,6 +72,7 @@ The multiply number (*4 in this case) must be the same in both parts of the code
 
 
 ## Breadcrumbs
+http://foundation.zurb.com/docs/components/breadcrumbs.html
 
 `ul.breadcrumbs>li>a[href="#"]>{Home}^^+li.current>a[href="#"]>{Current}`
 
@@ -80,3 +81,10 @@ The multiply number (*4 in this case) must be the same in both parts of the code
 http://foundation.zurb.com/docs/components/reveal.html
 
 `(a[href="#" data-reveal-id="myModal"]>{Click Me For A Modal})+(#myModal.reveal-modal[data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"]>(h2.modal-title>{Awesome modal})+(p.lead>{Some text})+(a.close-reveal-modal[aria-label="Close"]>{&#215;}))`
+
+
+## Table
+
+http://foundation.zurb.com/docs/components/tables.html
+
+`table>(thead>tr>th*4>{Table header $})+(tbody*1>tr*4>td*4>{Table cell $})`
