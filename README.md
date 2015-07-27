@@ -37,3 +37,28 @@ LoremPixel categories: abstract / animals / business / cats / city / food / nigh
 `(ul.tabs[data-tab]>li.tab-title.active>a[href="#panel$"]{Tab $}^li.tab-title*4>a[href="#panel$"]{Tab $})+(.tabs-content>.content.active#panel$>p>lorem15^^.content#panel$*4>p>lorem15)`
 
 If u want vertical tabs, just all "vertical" to first ul.tabs like this:  "ul.tabs.vertical"
+
+## Block grid
+
+`ul.small-block-grid-2.medium-block-grid-4.large-block-grid-6>li*6>{Your content}`
+
+## Interchange
+
+### Images
+
+img tag will generate src="" which u don't need so u can remove it
+
+`img[data-interchange="[/path/to/default.jpg, (default)], [/path/to/bigger-image.jpg, (large)]"]`
+`img[data-interchange="[/path/to/default.jpg, (only screen and (min-width: 1px))], [/path/to/bigger-image.jpg, (only screen and (min-width: 1280px))]"]`
+
+### Content
+
+'SOON' - Need to check all the options and write a good description
+
+
+## Icon bar
+
+Icons are "Font Awesome" (http://fortawesome.github.io/Font-Awesome/) so the <i> class names are not from Foundation
+
+.icon-bar.five-up>a[href="#"].item*4>i.fa.fa-home+label>{Label txt $}
+
