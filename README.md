@@ -84,13 +84,13 @@ Just change "home" part with something else (ex. envelope, phone, trash, close..
 
 ## Magellan 
 
-**Sticky nav with scroll to section, can use for OnePage webs**
-
 http://foundation.zurb.com/docs/components/magellan.html
 
-The multiply number (*4 in this case) must be the same in both parts of the code
+Sticky nav with scroll to section, can use for OnePage webs
 
 `(div[data-magellan-expedition="fixed"]>dl.sub-nav>dd[data-magellan-arrival="section-$"]*4>a[href="section-$"]>{Section $})+(.magellan-destinations>(h3[data-magellan-destination="section-$"]+a[name="section-$"]+section.magellan-content)*4)`
+
+The multiply number (*4 in this case) must be the same in both parts of the code
 
 
 ## Breadcrumbs
