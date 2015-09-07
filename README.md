@@ -82,7 +82,9 @@ Just change "home" part with something else (ex. envelope, phone, trash, close..
 `.icon-bar.five-up>a[href="#"].item*4>i.fa.fa-home+label>{Label txt $}`
 
 
-## Magellan (Sticky nav with scroll to section, can use for OnePage webs)
+## Magellan 
+
+**Sticky nav with scroll to section, can use for OnePage webs**
 
 http://foundation.zurb.com/docs/components/magellan.html
 
